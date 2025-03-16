@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h2>Formulario Robo de Bicicleta</h2>
+    <form>
+ <fildset>
+      <label for="Día">Día:</label>
+      <input type="date" id="Día" name="Día">
+
+      <label for="Hora">Hora:</label>
+      <input type="time" id="Hora" name="Hora">
+ </fildset><br><br>
+ <fieldset>
+      <label for="color">Color de la Bicicleta:</label>
+      <input type="color" id="color" name="color"><br><br>
+      <label for="precio">Rango de Precio:</label>
+      100$
+      <input type="range" id="Precio" name="Precio" min="100" max="1000">
+      1000$<br>
+ </fieldset><br>
+ <fieldset>
+    <legend>Tipos de Bicicletas</legend>
+        <label for="Tipo1">Paseo:</label>
+        <select id="Tipo1" name="Tipo1">
+          <option value="selecione">seleccione</option>
+          <option value="Señorial">Señorial</option>
+          <option value="Anti-plebeyos">Anti-plebeyos</option>
+          <option value="PorEncimaDelHombro">PorEncimaDelHombro</option>
+        </select>&nbsp&nbsp&nbsp;
+        <label for="Tipo2">Montaña:</label>
+        <select id="Tipo2" name="Tipo2">
+          <option value="selecione">seleccione</option>
+          <option value="amusinos">amusinos</option>
+          <option value="Hueleflores premium">Hueleflores premium</option>
+          <option value="Fango lover">Fango lover</option>
+        </select>&nbsp&nbsp&nbsp;
+        <label for="Tipo3">Carreras:</label>
+        <select id="Tipo3" name="Tipo3">
+          <option value="selecione">seleccione</option>
+          <option value="Metroymedio">Metroymedio</option>
+          <option value="Fluorescente edition">Fluorescente edition</option>
+          <option value="Grupitors">Grupitors</option>
+        </select>
+  </fieldset><br>
+  <fieldset>
+        <label for="Tipo">Accesorio:</label>
+        <select id="Tipo" name="Tipo">
+          <option value="selecione">Seleccione</option>
+          <option value="Ruedines">Ruedines</option>
+          <option value="Pegatinas">Pegatinas</option>
+          <option value="Cestita">Cestita</option>
+          <option value="Bomba de aire">Bomba de aire</option>
+          <option value="Timbre">Timbre</option>
+          <option value="Foco">Foco</option>
+        </select>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+        <label for="Marca">Marca de Bicicleta:</label>   
+        <input list="Marca">
+        <datalist id="Marca">
+               <option value="specialized">
+                <option value="trek">
+                <option value="merida">
+                <option value="scott">
+                <option value="giant">
+                <option value="cube">
+                <option value="lapierre">
+                <option value="orbea">
+                <option value="cannondale">
+                <option value="bmc">
+                <option value="canyon">
+                <option value="look">
+                <option value="protek">
+                <option value="cube">
+                <option value="megamo">
+                <option value="pinarello">
+                <option value="bianchi">
+                <option value="bh">
+                <option value="factor">
+                <option value="ghost">
+                <option value="cervélo">
+                <option value="argon">
+        </datalist> 
+    </fieldset> <br><br>  
+    <input type="submit" value="Enviar">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+    <input type="reset" value="Restablecer">
+    </form>
+</body>
+</html>
+
